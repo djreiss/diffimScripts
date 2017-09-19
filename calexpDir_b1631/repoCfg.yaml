@@ -1,0 +1,25 @@
+accessCfg: !!python/object:lsst.daf.persistence.policy.Policy
+  data:
+    storageCfg: !!python/object:lsst.daf.persistence.policy.Policy
+      data: {cls: &id001 !!python/name:lsst.daf.persistence.access.PosixStorage '',
+        root: /Users/dreiss/DATA/diffIm_demo/calexpDir_b1631}
+cls: &id002 !!python/name:lsst.daf.persistence.repository.Repository ''
+id: null
+mapper: null
+mapperArgs: {calibRoot: null, outputRoot: /Users/dreiss/DATA/diffIm_demo/decamDirTest}
+parentCfgs: !!python/tuple
+- !!python/object:lsst.daf.persistence.policy.Policy
+  data:
+    accessCfg: !!python/object:lsst.daf.persistence.policy.Policy
+      data:
+        storageCfg: !!python/object:lsst.daf.persistence.policy.Policy
+          data: {cls: *id001, root: /Users/dreiss/DATA/diffIm_demo/calexpDir_b1631}
+    cls: *id002
+    id: null
+    mapper: null
+    mapperArgs: {calibRoot: null, outputRoot: /Users/dreiss/DATA/diffIm_demo/decamDirTest}
+    parentCfgs: []
+    parentJoin: left
+    peerCfgs: &id003 []
+parentJoin: left
+peerCfgs: *id003
