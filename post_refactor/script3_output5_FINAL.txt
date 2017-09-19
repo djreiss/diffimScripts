@@ -1,0 +1,24 @@
+AL
+34.355u 2.067s 0:36.79 98.9%	0+0k 21+36io 1356pf+0w
+AL decorr.
+44.954u 2.358s 0:46.76 101.1%	0+0k 0+26io 14067pf+0w
+AL decorr. spatial
+108.056u 3.418s 0:56.46 197.4%	0+0k 0+24io 14088pf+0w
+Zogy
+29.158u 4.122s 0:28.66 116.0%	0+0k 482+16io 14074pf+0w
+Zogy spatial
+43.023u 3.443s 0:30.94 150.1%	0+0k 1+14io 14352pf+0w
+Zogy im-space
+59.344u 2.127s 1:00.64 101.3%	0+0k 0+13io 0pf+0w
+Zogy im-space spatial
+246.299u 5.862s 1:31.20 276.4%	0+0k 0+13io 0pf+0w
+AL pre-conv
+59.825u 2.253s 1:02.35 99.5%	0+0k 1+26io 0pf+0w
+AL pre-conv decorr.
+73.126u 2.468s 1:14.78 101.0%	0+0k 0+32io 1pf+0w
+AL pre-conv decorr. spatial
+147.775u 3.985s 1:26.74 174.9%	0+0k 0+25io 29pf+0w
+Zogy pre-conv
+35.336u 6.655s 0:33.76 124.3%	0+0k 272+18io 14293pf+0w
+Zogy pre-conv spatial
+65.876u 4.289s 0:36.96 189.7%	0+0k 971+14io 14351pf+0w
